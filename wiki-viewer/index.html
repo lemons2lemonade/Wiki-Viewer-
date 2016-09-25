@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wiki Viewer</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+
+<div class = "container-fluid">
+<div id="search">
+                            <div class="input-group col-md-12">
+                            <input type="text" id = "userText" class="form-control input-lg" placeholder="Search" />
+                            <span class="input-group-btn">
+                          <button class="btn btn-info btn-lg" id = "initSearch" type="button">
+                              <i class="glyphicon glyphicon-search"></i>
+                        </button>
+ </span>
+ </div>
+ </div>
+<div class= "text-center">
+ <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button id = "random" class = "btn btn-lg">Random Article</button></a>
+
+<p id = "result"></p>
+  
+  <div id = "buttons"></div>
+  
+  <div class = "row">
+    
+    <div class = "results"></div>
+    
+  
+    
+  </div>
+</div>
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

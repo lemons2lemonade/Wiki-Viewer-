@@ -1,0 +1,9 @@
+a {
+    color: #808080;
+}
+
+a:hover {
+  color: green;
+}
+	a:link {font-family:Arial; color: #808080; text-decoration:none}
+
